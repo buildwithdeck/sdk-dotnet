@@ -1,0 +1,19 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    -OAS:
+        inputs:
+            - location: registry.speakeasyapi.dev/deck-software-inc/poc/deck-api:main
+        output: .speakeasy/out.openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/deck-software-inc/poc/-oas
+targets:
+    deck-sdk:
+        target: csharp
+        source: -OAS
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/deck-software-inc/poc/-oas-csharp-code-samples
+            labelOverride:
+                fixedValue: Csharp (SDK)
+            blocking: false

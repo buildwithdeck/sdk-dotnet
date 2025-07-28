@@ -1,0 +1,9 @@
+# LinkConnectionStatusResponse
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `Status`                                                                                        | [LinkConnectionStatusResponseEnum](../../Models/Components/LinkConnectionStatusResponseEnum.md) | :heavy_minus_sign:                                                                              | The current status of the connection requested                                                  |
+| `AdditionalInformation`                                                                         | *string*                                                                                        | :heavy_minus_sign:                                                                              | Additional information related to the status                                                    |

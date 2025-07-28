@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Deck.SDK</PackageId>
+    <Version>0.0.1</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <Authors>Speakeasy</Authors>
+    <Copyright>Copyright (c) Speakeasy 2025</Copyright>
+    <Description>Deck API: # Deck API makes it straightforward for users to connect to any portal securely and quickly.<br/>
+<br/>
+### Welcome! Looking for a quick introduction to our API? Check out the 🚀<a href="https://framework.docs.deck.co/docs/setup">Quickstart guide</a>.<br/>
+<br/>
+Starting on the sandbox server is easy:<br/>
+<br/>
+1. Create an account using the <a href="https://dashboard.deck.co">dashboard</a> to get your client id and sandbox secret<br/>
+2. Enter your client id and sandbox secret in the Authentication section below<br/>
+3. Hit the &quot;Try&quot; buttons below for each endpoint.<br/>
+<br/>
+Happy querying!</Description>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\..\..\docs\**\*" Pack="true" PackagePath="\docs"  CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="newtonsoft.json" Version="13.0.3" />
+    <PackageReference Include="nodatime" Version="3.1.9" />
+  </ItemGroup>
+
+</Project>

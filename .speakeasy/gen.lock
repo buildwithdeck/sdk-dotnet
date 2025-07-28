@@ -1,0 +1,427 @@
+lockVersion: 2.0.0
+id: fa2c20b3-2a89-4e06-8611-12e139ef4f1b
+management:
+  docChecksum: f4aab9af85a617cd8714fb8bd6888e89
+  docVersion: v1
+  speakeasyVersion: 1.592.1
+  generationVersion: 2.667.0
+  releaseVersion: 0.0.1
+  configChecksum: 9d955fea23a688f4bd5760c9896d45e4
+features:
+  csharp:
+    additionalDependencies: 0.1.0
+    core: 3.11.2
+    deprecations: 2.81.2
+    flattening: 2.81.3
+    globalSecurity: 2.83.7
+    globalSecurityCallbacks: 0.1.0
+    globalServerURLs: 2.82.4
+    groups: 2.81.2
+    intellisenseMarkdownSupport: 0.1.0
+    methodArguments: 0.2.0
+    nameOverrides: 2.81.2
+    nullables: 0.1.1
+    responseFormat: 0.0.4
+    sdkHooks: 0.2.0
+generatedFiles:
+  - .gitattributes
+  - Deck.SDK.sln
+  - USAGE.md
+  - docs/Models/Components/AccessTokenRequest.md
+  - docs/Models/Components/AccountSelectModeEnum.md
+  - docs/Models/Components/AutoRefreshUpdateRequest.md
+  - docs/Models/Components/ConnectionContextResponse.md
+  - docs/Models/Components/ConnectionPublicTokenExchangeRequest.md
+  - docs/Models/Components/ConnectionPublicTokenExchangeResponse.md
+  - docs/Models/Components/ConnectivityStatusEnum.md
+  - docs/Models/Components/DocumentInfo.md
+  - docs/Models/Components/DocumentListResponse.md
+  - docs/Models/Components/Entity.md
+  - docs/Models/Components/ErrorCategoryEnum.md
+  - docs/Models/Components/ErrorCodeEnum.md
+  - docs/Models/Components/FieldTypeEnum.md
+  - docs/Models/Components/GetConnectionAccountsRequestAccount.md
+  - docs/Models/Components/GetConnectionAccountsResponse.md
+  - docs/Models/Components/GetConnectionAccountsResponseAccount.md
+  - docs/Models/Components/HTTPMetadata.md
+  - docs/Models/Components/InvalidateAccessTokenResponse.md
+  - docs/Models/Components/JobResponse.md
+  - docs/Models/Components/LanguageEnum.md
+  - docs/Models/Components/LinkAccountListResponse.md
+  - docs/Models/Components/LinkAccountListResponseAccountItem.md
+  - docs/Models/Components/LinkAccountSelectRequest.md
+  - docs/Models/Components/LinkClientInfoResponse.md
+  - docs/Models/Components/LinkConnectRequest.md
+  - docs/Models/Components/LinkConnectRequestField.md
+  - docs/Models/Components/LinkConnectResponse.md
+  - docs/Models/Components/LinkConnectionStatusResponse.md
+  - docs/Models/Components/LinkConnectionStatusResponseEnum.md
+  - docs/Models/Components/LinkSourcesRequest.md
+  - docs/Models/Components/LinkSourcesResponse.md
+  - docs/Models/Components/LinkSourcesResponseSource.md
+  - docs/Models/Components/LinkSourcesResponseSourceField.md
+  - docs/Models/Components/LinkTokenCreateRequest.md
+  - docs/Models/Components/LinkTokenCreateRequestBetaSourceStatus.md
+  - docs/Models/Components/LinkTokenCreateRequestLanguage.md
+  - docs/Models/Components/LinkTokenCreateRequestUpdateModeEnum.md
+  - docs/Models/Components/LinkTokenGetResponse.md
+  - docs/Models/Components/LinkTokenGetResponseBetaSourceStatus.md
+  - docs/Models/Components/LinkTokenGetResponseLanguage.md
+  - docs/Models/Components/LinkTokenRequestResponse.md
+  - docs/Models/Components/MfaAnswerRequest.md
+  - docs/Models/Components/Mode.md
+  - docs/Models/Components/ParsingMethod.md
+  - docs/Models/Components/Provider.md
+  - docs/Models/Components/RawDocumentRequest.md
+  - docs/Models/Components/RefreshConnectionRequest.md
+  - docs/Models/Components/ScrapingStatusEnum.md
+  - docs/Models/Components/Security.md
+  - docs/Models/Components/SecurityQuestionAnswerSaveRequest.md
+  - docs/Models/Components/SecurityQuestionResponse.md
+  - docs/Models/Components/SelectConnectionAccountsRequest.md
+  - docs/Models/Components/Update.md
+  - docs/Models/Components/UpdateMode.md
+  - docs/Models/Components/WebhookUpdateRequest.md
+  - docs/Models/Errors/AlreadyRunningJobResponseException.md
+  - docs/Models/Errors/BadRequestJobResponseException.md
+  - docs/Models/Errors/ErrorMessageResponse.md
+  - docs/Models/Requests/PostConnectionAccessTokenInvalidateResponse.md
+  - docs/Models/Requests/PostConnectionAccountsResponse.md
+  - docs/Models/Requests/PostConnectionAccountsSelectResponse.md
+  - docs/Models/Requests/PostConnectionAutoRefreshUpdateResponse.md
+  - docs/Models/Requests/PostConnectionContextResponse.md
+  - docs/Models/Requests/PostConnectionDestroyResponse.md
+  - docs/Models/Requests/PostConnectionPublicTokenExchangeResponse.md
+  - docs/Models/Requests/PostConnectionRefreshResponse.md
+  - docs/Models/Requests/PostConnectionWebhookUpdateResponse.md
+  - docs/Models/Requests/PostJobsDocumentsFileResponse.md
+  - docs/Models/Requests/PostJobsDocumentsListRequest.md
+  - docs/Models/Requests/PostJobsDocumentsListResponse.md
+  - docs/Models/Requests/PostJobsMfaAnswerResponse.md
+  - docs/Models/Requests/PostJobsSubmitRequest.md
+  - docs/Models/Requests/PostJobsSubmitResponse.md
+  - docs/Models/Requests/PostLinkAccountListResponse.md
+  - docs/Models/Requests/PostLinkAccountSelectResponse.md
+  - docs/Models/Requests/PostLinkAuthenticationMfaAnswerResponse.md
+  - docs/Models/Requests/PostLinkAuthenticationMfaGetResponse.md
+  - docs/Models/Requests/PostLinkConnectResponse.md
+  - docs/Models/Requests/PostLinkConnectionStatusResponse.md
+  - docs/Models/Requests/PostLinkInfoResponse.md
+  - docs/Models/Requests/PostLinkSourcesResponse.md
+  - docs/Models/Requests/PostLinkTokenCreateResponse.md
+  - docs/Models/Requests/PostLinkTokenGetResponse.md
+  - docs/sdks/authentication/README.md
+  - docs/sdks/connection/README.md
+  - docs/sdks/connections/README.md
+  - docs/sdks/decksdk/README.md
+  - docs/sdks/jobs/README.md
+  - docs/sdks/jobsdocuments/README.md
+  - docs/sdks/link/README.md
+  - docs/sdks/links/README.md
+  - global.json
+  - src/Deck/SDK/Authentication.cs
+  - src/Deck/SDK/Connection.cs
+  - src/Deck/SDK/Connections.cs
+  - src/Deck/SDK/Deck.SDK.csproj
+  - src/Deck/SDK/DeckSDK.cs
+  - src/Deck/SDK/Hooks/HookTypes.cs
+  - src/Deck/SDK/Hooks/SDKHooks.cs
+  - src/Deck/SDK/Jobs.cs
+  - src/Deck/SDK/JobsDocuments.cs
+  - src/Deck/SDK/Link.cs
+  - src/Deck/SDK/Links.cs
+  - src/Deck/SDK/Models/Components/AccessTokenRequest.cs
+  - src/Deck/SDK/Models/Components/AccountSelectModeEnum.cs
+  - src/Deck/SDK/Models/Components/AutoRefreshUpdateRequest.cs
+  - src/Deck/SDK/Models/Components/ConnectionContextResponse.cs
+  - src/Deck/SDK/Models/Components/ConnectionPublicTokenExchangeRequest.cs
+  - src/Deck/SDK/Models/Components/ConnectionPublicTokenExchangeResponse.cs
+  - src/Deck/SDK/Models/Components/ConnectivityStatusEnum.cs
+  - src/Deck/SDK/Models/Components/DocumentInfo.cs
+  - src/Deck/SDK/Models/Components/DocumentListResponse.cs
+  - src/Deck/SDK/Models/Components/Entity.cs
+  - src/Deck/SDK/Models/Components/ErrorCategoryEnum.cs
+  - src/Deck/SDK/Models/Components/ErrorCodeEnum.cs
+  - src/Deck/SDK/Models/Components/FieldTypeEnum.cs
+  - src/Deck/SDK/Models/Components/GetConnectionAccountsRequestAccount.cs
+  - src/Deck/SDK/Models/Components/GetConnectionAccountsResponse.cs
+  - src/Deck/SDK/Models/Components/GetConnectionAccountsResponseAccount.cs
+  - src/Deck/SDK/Models/Components/HTTPMetadata.cs
+  - src/Deck/SDK/Models/Components/InvalidateAccessTokenResponse.cs
+  - src/Deck/SDK/Models/Components/JobResponse.cs
+  - src/Deck/SDK/Models/Components/LanguageEnum.cs
+  - src/Deck/SDK/Models/Components/LinkAccountListResponse.cs
+  - src/Deck/SDK/Models/Components/LinkAccountListResponseAccountItem.cs
+  - src/Deck/SDK/Models/Components/LinkAccountSelectRequest.cs
+  - src/Deck/SDK/Models/Components/LinkClientInfoResponse.cs
+  - src/Deck/SDK/Models/Components/LinkConnectRequest.cs
+  - src/Deck/SDK/Models/Components/LinkConnectRequestField.cs
+  - src/Deck/SDK/Models/Components/LinkConnectResponse.cs
+  - src/Deck/SDK/Models/Components/LinkConnectionStatusResponse.cs
+  - src/Deck/SDK/Models/Components/LinkConnectionStatusResponseEnum.cs
+  - src/Deck/SDK/Models/Components/LinkSourcesRequest.cs
+  - src/Deck/SDK/Models/Components/LinkSourcesResponse.cs
+  - src/Deck/SDK/Models/Components/LinkSourcesResponseSource.cs
+  - src/Deck/SDK/Models/Components/LinkSourcesResponseSourceField.cs
+  - src/Deck/SDK/Models/Components/LinkTokenCreateRequest.cs
+  - src/Deck/SDK/Models/Components/LinkTokenCreateRequestBetaSourceStatus.cs
+  - src/Deck/SDK/Models/Components/LinkTokenCreateRequestLanguage.cs
+  - src/Deck/SDK/Models/Components/LinkTokenCreateRequestUpdateModeEnum.cs
+  - src/Deck/SDK/Models/Components/LinkTokenGetResponse.cs
+  - src/Deck/SDK/Models/Components/LinkTokenGetResponseBetaSourceStatus.cs
+  - src/Deck/SDK/Models/Components/LinkTokenGetResponseLanguage.cs
+  - src/Deck/SDK/Models/Components/LinkTokenRequestResponse.cs
+  - src/Deck/SDK/Models/Components/MfaAnswerRequest.cs
+  - src/Deck/SDK/Models/Components/Mode.cs
+  - src/Deck/SDK/Models/Components/ParsingMethod.cs
+  - src/Deck/SDK/Models/Components/Provider.cs
+  - src/Deck/SDK/Models/Components/RawDocumentRequest.cs
+  - src/Deck/SDK/Models/Components/RefreshConnectionRequest.cs
+  - src/Deck/SDK/Models/Components/ScrapingStatusEnum.cs
+  - src/Deck/SDK/Models/Components/Security.cs
+  - src/Deck/SDK/Models/Components/SecurityQuestionAnswerSaveRequest.cs
+  - src/Deck/SDK/Models/Components/SecurityQuestionResponse.cs
+  - src/Deck/SDK/Models/Components/SelectConnectionAccountsRequest.cs
+  - src/Deck/SDK/Models/Components/Update.cs
+  - src/Deck/SDK/Models/Components/UpdateMode.cs
+  - src/Deck/SDK/Models/Components/WebhookUpdateRequest.cs
+  - src/Deck/SDK/Models/Errors/APIException.cs
+  - src/Deck/SDK/Models/Errors/AlreadyRunningJobResponseException.cs
+  - src/Deck/SDK/Models/Errors/BadRequestJobResponseException.cs
+  - src/Deck/SDK/Models/Errors/ErrorMessageResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionAccessTokenInvalidateResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionAccountsResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionAccountsSelectResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionAutoRefreshUpdateResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionContextResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionDestroyResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionPublicTokenExchangeResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionRefreshResponse.cs
+  - src/Deck/SDK/Models/Requests/PostConnectionWebhookUpdateResponse.cs
+  - src/Deck/SDK/Models/Requests/PostJobsDocumentsFileResponse.cs
+  - src/Deck/SDK/Models/Requests/PostJobsDocumentsListRequest.cs
+  - src/Deck/SDK/Models/Requests/PostJobsDocumentsListResponse.cs
+  - src/Deck/SDK/Models/Requests/PostJobsMfaAnswerResponse.cs
+  - src/Deck/SDK/Models/Requests/PostJobsSubmitRequest.cs
+  - src/Deck/SDK/Models/Requests/PostJobsSubmitResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkAccountListResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkAccountSelectResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkAuthenticationMfaAnswerResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkAuthenticationMfaGetResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkConnectResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkConnectionStatusResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkInfoResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkSourcesResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkTokenCreateResponse.cs
+  - src/Deck/SDK/Models/Requests/PostLinkTokenGetResponse.cs
+  - src/Deck/SDK/SDKConfig.cs
+  - src/Deck/SDK/Utils/AnyDeserializer.cs
+  - src/Deck/SDK/Utils/BigIntStrConverter.cs
+  - src/Deck/SDK/Utils/DecimalStrConverter.cs
+  - src/Deck/SDK/Utils/EnumConverter.cs
+  - src/Deck/SDK/Utils/FlexibleObjectDeserializer.cs
+  - src/Deck/SDK/Utils/HeaderSerializer.cs
+  - src/Deck/SDK/Utils/IsoDateTimeSerializer.cs
+  - src/Deck/SDK/Utils/OpenEnumConverter.cs
+  - src/Deck/SDK/Utils/RequestBodySerializer.cs
+  - src/Deck/SDK/Utils/ResponseBodyDeserializer.cs
+  - src/Deck/SDK/Utils/Retries/BackoffStrategy.cs
+  - src/Deck/SDK/Utils/Retries/Retries.cs
+  - src/Deck/SDK/Utils/Retries/RetryConfig.cs
+  - src/Deck/SDK/Utils/SecurityMetadata.cs
+  - src/Deck/SDK/Utils/SpeakeasyHttpClient.cs
+  - src/Deck/SDK/Utils/SpeakeasyMetadata.cs
+  - src/Deck/SDK/Utils/URLBuilder.cs
+  - src/Deck/SDK/Utils/Utilities.cs
+examples:
+  post_/jobs/submit:
+    speakeasy-default-post-/jobs/submit:
+      requestBody:
+        application/json: {"job_code": "FetchDocuments", "input": {"access_token": "access-development-6599f8dd-1a1c-4586-39d1-08ddb97283f7", "key1": "value1", "someProperty": "someValue"}}
+        text/json: {"job_code": "FetchDocuments", "input": {"access_token": "access-development-6599f8dd-1a1c-4586-39d1-08ddb97283f7", "key1": "value1", "someProperty": "someValue"}}
+        application/*+json: {"job_code": "FetchDocuments", "input": {"access_token": "access-development-6599f8dd-1a1c-4586-39d1-08ddb97283f7", "key1": "value1", "someProperty": "someValue"}}
+      responses:
+        "200":
+          application/json: {"job_guid": "61ddf36b-3530-4a14-9b21-fac7297f39c0", "job_code": "<value>"}
+          text/json: {"job_guid": "61ddf36b-3530-4a14-9b21-fac7297f39c0", "job_code": "<value>"}
+        "400":
+          application/json: {"error_code": "NO_ACTIVE_CONNECTION", "error_message": "<value>"}
+          text/json: {"error_code": "NO_ACTIVE_CONNECTION", "error_message": "<value>"}
+        "409":
+          application/json: {"job_id": "13822d2a-93aa-44b1-9d5b-595e331634c0", "job_guid": "f850baba-d96c-49cf-af28-cee156178113", "message": "<value>", "error_message": "<value>"}
+          text/json: {"job_id": "13822d2a-93aa-44b1-9d5b-595e331634c0", "job_guid": "f850baba-d96c-49cf-af28-cee156178113", "message": "<value>", "error_message": "<value>"}
+  post_/jobs/mfa/answer:
+    speakeasy-default-post-/jobs/mfa/answer:
+      responses:
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/jobs/documents/file:
+    speakeasy-default-post-/jobs/documents/file:
+      responses:
+        "200":
+          application/json: "0x5FC3f53c83"
+          text/json: "0x2e68257ae7"
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/jobs/documents/list:
+    speakeasy-default-post-/jobs/documents/list:
+      responses:
+        "200":
+          application/json: {"documents": []}
+          text/json: {"documents": []}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/token/create:
+    speakeasy-default-post-/link/token/create:
+      responses:
+        "200":
+          application/json: {"link_token": "<value>"}
+          text/json: {"link_token": "<value>"}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/info:
+    speakeasy-default-post-/link/info:
+      responses:
+        "200":
+          application/json: {}
+          text/json: {}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/sources:
+    speakeasy-default-post-/link/sources:
+      responses:
+        "200":
+          application/json: {}
+          text/json: {}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/account/select:
+    speakeasy-default-post-/link/account/select:
+      responses:
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/token/get:
+    speakeasy-default-post-/link/token/get:
+      responses:
+        "200":
+          application/json: {}
+          text/json: {}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/connect:
+    speakeasy-default-post-/link/connect:
+      responses:
+        "200":
+          application/json: {}
+          text/json: {}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/connection/status:
+    speakeasy-default-post-/link/connection/status:
+      responses:
+        "200":
+          application/json: {}
+          text/json: {}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/account/list:
+    speakeasy-default-post-/link/account/list:
+      responses:
+        "200":
+          application/json: {}
+          text/json: {}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/authentication/mfa/get:
+    speakeasy-default-post-/link/authentication/mfa/get:
+      responses:
+        "200":
+          application/json: {"question": "<value>"}
+          text/json: {"question": "<value>"}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/link/authentication/mfa/answer:
+    speakeasy-default-post-/link/authentication/mfa/answer:
+      responses:
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/public_token/exchange:
+    speakeasy-default-post-/connection/public-token/exchange:
+      responses:
+        "200":
+          application/json: {"fields": [{"field_name": "<value>", "field_value": "<value>"}]}
+          text/json: {"fields": [{"field_name": "<value>", "field_value": "<value>"}]}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/context:
+    speakeasy-default-post-/connection/context:
+      responses:
+        "200":
+          application/json: {"provider": {}, "entities": []}
+          text/json: {"provider": {}, "entities": []}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/accounts:
+    speakeasy-default-post-/connection/accounts:
+      responses:
+        "200":
+          application/json: {}
+          text/json: {}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/accounts/select:
+    speakeasy-default-post-/connection/accounts/select:
+      responses:
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/auto_refresh/update:
+    speakeasy-default-post-/connection/auto-refresh/update:
+      responses:
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/refresh:
+    speakeasy-default-post-/connection/refresh:
+      responses:
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/destroy:
+    speakeasy-default-post-/connection/destroy:
+      responses:
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/access_token/invalidate:
+    speakeasy-default-post-/connection/access-token/invalidate:
+      responses:
+        "200":
+          application/json: {}
+          text/json: {}
+        "400":
+          application/json: {}
+          text/json: {}
+  post_/connection/webhook/update:
+    speakeasy-default-post-/connection/webhook/update:
+      responses:
+        "400":
+          application/json: {}
+          text/json: {}
+examplesVersion: 1.0.2
