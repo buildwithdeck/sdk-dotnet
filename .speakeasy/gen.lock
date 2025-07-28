@@ -5,8 +5,9 @@ management:
   docVersion: v1
   speakeasyVersion: 1.592.1
   generationVersion: 2.667.0
-  releaseVersion: 0.0.1
-  configChecksum: 9d955fea23a688f4bd5760c9896d45e4
+  releaseVersion: 0.0.2
+  configChecksum: 59d4c208673479d2d396932a7eb241b5
+  repoURL: https://github.com/buildwithdeck/sdk-dotnet.git
 features:
   csharp:
     additionalDependencies: 0.1.0
