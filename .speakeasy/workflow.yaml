@@ -11,6 +11,9 @@ targets:
     deck-sdk:
         target: csharp
         source: -OAS
+        publish:
+            nuget:
+                apiKey: $nuget_api_key
         codeSamples:
             registry:
                 location: registry.speakeasyapi.dev/deck-software-inc/poc/-oas-csharp-code-samples
