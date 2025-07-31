@@ -216,9 +216,9 @@ var sdk = new DeckSDK(
 PostJobsSubmitRequest req = new PostJobsSubmitRequest() {
     JobCode = "FetchDocuments",
     Input = new Dictionary<string, string>() {
-        { "someProperty", "someValue" },
         { "access_token", "access-development-6599f8dd-1a1c-4586-39d1-08ddb97283f7" },
         { "key1", "value1" },
+        { "someProperty", "someValue" },
     },
 };
 
