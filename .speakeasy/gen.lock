@@ -3,11 +3,12 @@ id: fa2c20b3-2a89-4e06-8611-12e139ef4f1b
 management:
   docChecksum: f4aab9af85a617cd8714fb8bd6888e89
   docVersion: v1
-  speakeasyVersion: 1.592.1
-  generationVersion: 2.667.0
-  releaseVersion: 0.0.2
-  configChecksum: 59d4c208673479d2d396932a7eb241b5
+  speakeasyVersion: 1.593.0
+  generationVersion: 2.669.0
+  releaseVersion: 0.0.3
+  configChecksum: c3a304c0f9419c1415006dbe9708ea9a
   repoURL: https://github.com/buildwithdeck/sdk-dotnet.git
+  published: true
 features:
   csharp:
     additionalDependencies: 0.1.0
@@ -27,6 +28,7 @@ features:
 generatedFiles:
   - .gitattributes
   - Deck.SDK.sln
+  - NUGET.md
   - USAGE.md
   - docs/Models/Components/AccessTokenRequest.md
   - docs/Models/Components/AccountSelectModeEnum.md

@@ -1,4 +1,4 @@
-speakeasyVersion: 1.592.1
+speakeasyVersion: 1.593.0
 sources:
     -OAS:
         sourceNamespace: deck-api
@@ -6,7 +6,7 @@ sources:
         sourceBlobDigest: sha256:12931539ed327ce44c8a00c8cfbb92043e369a020e53d41f038ffc895c02063b
         tags:
             - latest
-            - speakeasy-sdk-regen-1753733867
+            - speakeasy-sdk-regen-1753972284
 targets:
     deck-sdk:
         source: -OAS
@@ -27,6 +27,9 @@ workflow:
         deck-sdk:
             target: csharp
             source: -OAS
+            publish:
+                nuget:
+                    apiKey: $nuget_api_key
             codeSamples:
                 registry:
                     location: registry.speakeasyapi.dev/deck-software-inc/poc/-oas-csharp-code-samples
