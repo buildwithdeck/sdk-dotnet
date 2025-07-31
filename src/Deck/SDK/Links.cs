@@ -54,8 +54,8 @@ namespace Deck.SDK
     {
         public SDKConfig SDKConfiguration { get; private set; }
         private const string _language = "csharp";
-        private const string _sdkVersion = "0.0.3";
-        private const string _sdkGenVersion = "2.669.0";
+        private const string _sdkVersion = "0.0.4";
+        private const string _sdkGenVersion = "2.670.1";
         private const string _openapiDocVersion = "v1";
         public IAuthentication Authentication { get; private set; }
 
