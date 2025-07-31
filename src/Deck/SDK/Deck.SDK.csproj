@@ -3,10 +3,12 @@
   <PropertyGroup>
     <IsPackable>true</IsPackable>
     <PackageId>Deck.SDK</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <TargetFramework>net8.0</TargetFramework>
     <Authors>Speakeasy</Authors>
     <Copyright>Copyright (c) Speakeasy 2025</Copyright>
+    <RepositoryUrl>https://github.com/buildwithdeck/sdk-dotnet.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <Description>Deck API: # Deck API makes it straightforward for users to connect to any portal securely and quickly.<br/>
 <br/>
 ### Welcome! Looking for a quick introduction to our API? Check out the 🚀<a href="https://framework.docs.deck.co/docs/setup">Quickstart guide</a>.<br/>
