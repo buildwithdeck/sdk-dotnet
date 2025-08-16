@@ -29,3 +29,13 @@ Based on:
 - [csharp v0.0.4] .
 ### Releases
 - [NuGet v0.0.4] https://www.nuget.org/packages/Deck.SDK/0.0.4 - .
+
+## 2025-08-16 02:06:55
+### Changes
+Based on:
+- OpenAPI Doc  
+- Speakeasy CLI 1.605.0 (2.684.0) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [csharp v0.0.5] .
+### Releases
+- [NuGet v0.0.5] https://www.nuget.org/packages/Deck.SDK/0.0.5 - .
