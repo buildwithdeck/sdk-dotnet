@@ -43,7 +43,7 @@ namespace Deck.SDK
             Client = client ?? new SpeakeasyHttpClient();
             ServerUrl = "";
             ServerIndex = 0;
-            UserAgent = "speakeasy-sdk/csharp 0.0.4 2.670.1 v1 Deck.SDK";
+            UserAgent = "speakeasy-sdk/csharp 0.1.0 2.687.13 v1 Deck.SDK";
             SecuritySource = null;
             Hooks = new SDKHooks();
             RetryConfig = null;
