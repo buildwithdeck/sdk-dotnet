@@ -3,16 +3,16 @@ id: fa2c20b3-2a89-4e06-8611-12e139ef4f1b
 management:
   docChecksum: f4aab9af85a617cd8714fb8bd6888e89
   docVersion: v1
-  speakeasyVersion: 1.594.0
-  generationVersion: 2.670.1
-  releaseVersion: 0.0.4
-  configChecksum: 2e74363eb1bc66ead4e66fcafcb51460
+  speakeasyVersion: 1.606.9
+  generationVersion: 2.687.13
+  releaseVersion: 0.1.0
+  configChecksum: 3b367b720203a2f94e7718c6fecdadba
   repoURL: https://github.com/buildwithdeck/sdk-dotnet.git
   published: true
 features:
   csharp:
     additionalDependencies: 0.1.0
-    core: 3.11.2
+    core: 3.12.0
     deprecations: 2.81.2
     flattening: 2.81.3
     globalSecurity: 2.83.7
